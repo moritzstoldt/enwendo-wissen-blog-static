@@ -1,0 +1,1 @@
+# enwendo-wissen-blog-static
