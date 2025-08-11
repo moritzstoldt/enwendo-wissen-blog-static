@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/wissen/assets/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>/wissen/post-sitemap.xml</loc>
+		<loc>https://enwendo.de/wissen/post-sitemap.xml</loc>
 		<lastmod>2025-08-07T15:14:18+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>/wissen/page-sitemap.xml</loc>
+		<loc>https://enwendo.de/wissen/page-sitemap.xml</loc>
 		<lastmod>2025-05-14T07:55:19+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>/wissen/category-sitemap.xml</loc>
+		<loc>https://enwendo.de/wissen/category-sitemap.xml</loc>
 		<lastmod>2025-08-07T15:14:18+00:00</lastmod>
 	</sitemap>
 </sitemapindex>
