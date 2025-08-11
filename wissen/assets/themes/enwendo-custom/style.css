@@ -598,8 +598,8 @@ main {
 .articleBreadcrumbs__sep { margin: 0 6px; opacity: 0.6; }
 .articleBreadcrumbs__category { text-decoration: none; font-weight: 600; }
 .articleHeader__kicker { color: #6b7280; font-weight: 600; font-size: 14px; margin-bottom: 6px; }
-.articleHeader__title { font-size: clamp(28px, 4.2vw, 48px); line-height: 1.15; margin: 0 0 16px; color: #0f172a; }
-.authorInline { display: flex; align-items: center; gap: 12px; margin: 8px 0 10px; }
+.articleHeader__title { font-size: clamp(28px, 4.2vw, 40px); line-height: 1.15; margin: 0 0 16px; color: #0f172a; }
+.authorInline { display: flex; align-items: center; gap: 12px; margin: 8px 0 20px; }
 .authorInline__avatar { border-radius: 999px; width: 56px; height: 56px; object-fit: cover; }
 .authorInline__meta { line-height: 1.1; }
 .authorInline__name { font-weight: 700; color: #111827; }
