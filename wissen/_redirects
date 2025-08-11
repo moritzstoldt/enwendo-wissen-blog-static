@@ -1,3 +1,0 @@
-/wissen   /wissen/    301
-/wissen/*/index.html   /wissen/:splat/   301
-/wissen/*.html   /wissen/:splat   301
