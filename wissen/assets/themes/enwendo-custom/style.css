@@ -4,7 +4,7 @@ Theme URI: https://enwendo.de/
 Author: Enwendo
 Author URI: https://enwendo.de/
 Description: Custom Theme für Enwendo auf Basis eines bestehenden HTML+CSS Templates.
-Version: 1.2.2
+Version: 1.3
 Text Domain: enwendo-custom
 Requires at least: 6.0
 Requires PHP: 6.0
@@ -1174,3 +1174,90 @@ main {
     margin: 0 15px 30px;
   }
 } 
+
+/* Callouts */
+.enw-callout{ border-radius:12px; padding:16px 18px; margin:20px 0; border:1px solid transparent; display:block; }
+.enw-callout p{ margin:0; }
+.enw-callout--warning{ background:#FFF8DB; border-color:#E6C200; color:#5A4B00; }
+.enw-callout--tip{ background:#E9F8EF; border-color:#27A857; color:#0D4623; }
+.enw-callout .callout-title{ font-weight:700; margin:0 0 8px; display:inline-flex; align-items:flex-start; gap:10px; }
+.enw-callout .callout-title::before{ align-self:flex-start; }
+.enw-callout--warning .callout-title::before{ content:"⚠️"; display:inline-block; font-size:1.2em; line-height:1; transform: translateY(3px); }
+.enw-callout--tip .callout-title::before{ content:"💡"; display:inline-block; font-size:1.2em; line-height:1; transform: translateY(1px); }
+
+/* Key points */
+.enw-keypoints{ background:rgb(64,159,129); color:#fff; border:none; border-radius:14px; padding:18px 20px; }
+.enw-keypoints h3{ margin:0 0 12px; font-size:1.28rem; font-weight:700; color:#fff; display:inline-flex; align-items:center; gap:12px; }
+.enw-keypoints h3::before{ content:"👉"; display:inline-block; font-size:1.25em; line-height:1; transform: translateY(1px); }
+.enw-keypoints ul{ margin:0; padding-left:22px; }
+.enw-keypoints li{ margin:8px 0; }
+.enw-keypoints a{ color:#fff; text-decoration: underline; }
+
+/* Expertenzitat */
+.enw-expert-quote{
+  display:grid;
+  grid-template-columns: 90px 1fr;
+  column-gap: 60px;
+  row-gap:28px;
+  background:#EBFCF4;
+  border-radius:20px;
+  padding:30px 30px 0;
+  width:100%;
+  box-sizing:border-box;
+  margin: 0 0 18px; /* neutralize blockquote UA margins so it aligns with text */
+  min-height: 180px;
+}
+.enw-expert-quote .expert-text{ grid-column:2; grid-row:2; margin:0; font-size:17px; line-height:28px; font-weight:500; font-style:italic; color:#797C83; }
+.enw-expert-quote .expert-text::before{ content:"“"; }
+.enw-expert-quote .expert-text::after{ content:"”"; }
+.enw-expert-quote p:empty{ display:none; }
+.enw-expert-quote::before{ content:""; grid-column:1; grid-row:1 / span 2; width:120px; height:120px; border-radius:24px; background:url('https://enwendo.de/wissen/assets/themes/enwendo-custom/assets/img/author-fallback.jpg') center/cover no-repeat; box-shadow:0 4px 4px rgba(0,0,0,0.25); align-self:start; }
+.enw-expert-quote .expert-name{ grid-column:2; grid-row:1; align-self:center; margin:20px 0 0; font-weight:600; font-size:20px; line-height:24px; color:#3E4047; }
+.enw-expert-quote .expert-role{ grid-column:2; grid-row:1; align-self:end; margin:0; font-size:16px; line-height:24px; font-weight:400; color:#797C83; }
+.enw-expert-quote .expert-cite{ display:none !important }
+
+/* TOC - Clean Style */
+.enw-toc__nav{ margin: 0 0 16px; padding-bottom: 16px; border-bottom: 1px solid #eee; }
+.enw-toc__title{ font-weight:700; color:#212529; font-size:18px; margin:0 0 16px; }
+.enw-toc__title img { margin-right: 10px !important;}
+.enw-toc__list{ list-style:none; padding-left:0 !important; margin:0; }
+.enw-toc__item{ margin:0 0 12px; }
+.enw-toc__item:last-child{ margin-bottom:0; }
+.enw-toc__item a{ color:#495057; text-decoration:none; display:flex; align-items:flex-start; gap:5px; }
+.enw-toc__item a:hover .enw-toc__text{ text-decoration:underline; }
+.enw-toc__item a:hover{ color:#212529; }
+.enw-toc__number{ width:24px; flex-shrink:0; }
+.enw-toc__text{ flex:1; }
+
+/* Responsive layout for expert quote */
+@media (max-width: 700px) {
+  .enw-expert-quote {
+    grid-template-columns: 1fr;
+    grid-template-areas: none;
+    row-gap: 12px;
+    column-gap: 0;
+    padding: 20px;
+    min-height: unset;
+  }
+  /* DOM order: quote -> name -> role. Avatar wird vor dem Namen eingefügt */
+  .enw-expert-quote .expert-text,
+  .enw-expert-quote .expert-name,
+  .enw-expert-quote .expert-role { grid-area: unset; grid-column: 1; }
+
+  /* Container-Avatar ausblenden */
+  .enw-expert-quote::before { content: none; width: 0; height: 0; margin: 0; }
+
+  /* Avatar vor dem Namen einfügen und zentrieren */
+  .enw-expert-quote .expert-name { text-align: center; margin: 8px 0 0; }
+  .enw-expert-quote .expert-name::before {
+    content: "";
+    display: block;
+    width: 96px;
+    height: 96px;
+    border-radius: 24px;
+    background: url('https://enwendo.de/wissen/assets/themes/enwendo-custom/assets/img/author-fallback.jpg') center/cover no-repeat;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    margin: 0 auto 8px;
+  }
+  .enw-expert-quote .expert-role { text-align: center; }
+}
