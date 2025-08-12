@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://enwendo.de/wissen/assets/plugins/wordpress-seo/css/main-sitemap.xsl"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	<sitemap>
-		<loc>https://enwendo.de/wissen/post-sitemap.xml</loc>
-		<lastmod>2025-08-12T08:14:19+00:00</lastmod>
-	</sitemap>
-	<sitemap>
-		<loc>https://enwendo.de/wissen/page-sitemap.xml</loc>
-		<lastmod>2025-05-14T07:55:19+00:00</lastmod>
-	</sitemap>
-	<sitemap>
-		<loc>https://enwendo.de/wissen/category-sitemap.xml</loc>
-		<lastmod>2025-08-12T08:14:19+00:00</lastmod>
-	</sitemap>
-</sitemapindex>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Weiterleiten..</title>
+		<meta http-equiv="refresh" content="0;url=https://enwendo.de/wissen/sitemap_index.xml">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "https://enwendo.de/wissen/sitemap_index.xml";
+		</script>
+
+		<p>Du wirst weitergeleitet auf <a href="https://enwendo.de/wissen/sitemap_index.xml">https://enwendo.de/wissen/sitemap_index.xml</a></p>
+	</body>
+</html>
