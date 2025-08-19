@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!header) return;
 
   function checkScreenSize() {
-    if (window.innerWidth <= 700) {
+    if (window.innerWidth <= 800) {
       header.classList.add('header--withDrawer');
     } else {
       header.classList.remove('header--withDrawer');
@@ -34,18 +34,37 @@ document.addEventListener('DOMContentLoaded', function () {
     backdrop.addEventListener('click', closeMenu);
   }
 
-  // Reading progress bar
-  if (progress) {
-    function updateProgress() {
-      var scrollTop = window.scrollY || document.documentElement.scrollTop;
-      var docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      var percent = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
-      progress.style.width = percent + '%';
-    }
-    updateProgress();
-    window.addEventListener('scroll', updateProgress, { passive: true });
-    window.addEventListener('resize', updateProgress);
+
+
+  // FAQ functionality
+  function initFAQ() {
+    var faqSections = document.querySelectorAll('.schema-faq-section');
+    
+    faqSections.forEach(function(section) {
+      var question = section.querySelector('.schema-faq-question');
+      var answer = section.querySelector('.schema-faq-answer');
+      
+      if (question && answer) {
+        // Make question clickable
+        question.style.cursor = 'pointer';
+        
+        question.addEventListener('click', function() {
+          // Toggle active state
+          section.classList.toggle('active');
+          
+          // Close other FAQ sections (optional - remove if you want multiple open)
+          faqSections.forEach(function(otherSection) {
+            if (otherSection !== section) {
+              otherSection.classList.remove('active');
+            }
+          });
+        });
+      }
+    });
   }
+
+  // Initialize FAQ after DOM is loaded
+  initFAQ();
 });
 
 
