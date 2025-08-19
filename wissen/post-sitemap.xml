@@ -45,16 +45,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/fenster-3-fach-oder-2-fach/</loc>
-		<lastmod>2025-08-12T08:02:24+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Fenster-einbau-scaled.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/05/KfW-Haus.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/neue-tueren-kosten/</loc>
 		<lastmod>2025-08-12T08:02:32+00:00</lastmod>
 		<image:image>
@@ -307,19 +297,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/alte-heizung-austauschpflicht/</loc>
-		<lastmod>2025-08-14T10:18:57+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Oelheizung-scaled.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Oelheizung-scaled.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/05/Waermepumpe-2.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/individueller-sanierungsfahrplan-isfp/</loc>
 		<lastmod>2025-08-19T12:24:58+00:00</lastmod>
 		<image:image>
@@ -333,6 +310,29 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-1.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/alte-heizung-austauschpflicht/</loc>
+		<lastmod>2025-08-19T12:27:44+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Oelheizung-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Oelheizung-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/05/Waermepumpe-2.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/fenster-3-fach-oder-2-fach/</loc>
+		<lastmod>2025-08-19T15:13:36+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Fenster-einbau-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/05/KfW-Haus.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
