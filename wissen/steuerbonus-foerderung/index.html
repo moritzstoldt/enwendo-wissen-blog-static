@@ -70,7 +70,48 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 <link rel="shortlink" href="https://enwendo.de/wissen/?p=435">
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://enwendo.de/wissen/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fenwendo.de%2Fwissen%2Fsteuerbonus-foerderung%2F">
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://enwendo.de/wissen/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fenwendo.de%2Fwissen%2Fsteuerbonus-foerderung%2F&amp;format=xml">
-
+<script>
+  // Prepare variables
+  var currentFullUrl = window.location.href;
+  var referrer = document.referrer;
+  
+  // Set Referrer as cookie if not set before
+  if(!getCookie("referrer")) {
+    setCookie('referrer', referrer);
+  }
+  // Set First Visit URL as cookie if not set before
+  if(!getCookie("first_visit_url")) {
+    setCookie('first_visit_url', currentFullUrl);
+  }
+  
+  // Helper function to find cookie
+  function getCookie(c_name) {
+    var c_value = document.cookie,
+        c_start = c_value.indexOf(" " + c_name + "=");
+    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
+    if (c_start == -1) {
+        c_value = null;
+    } else {
+        c_start = c_value.indexOf("=", c_start) + 1;
+        var c_end = c_value.indexOf(";", c_start);
+        if (c_end == -1) {
+            c_end = c_value.length;
+        }
+        c_value = unescape(c_value.substring(c_start, c_end));
+    }
+    return c_value;
+  }
+  
+  // Helper function to set cookie
+  function setCookie(cookieName, cookieValue) {
+    // Get today in 1 year for expiration date of cookie
+    var date = new Date();
+    date.setTime(date.getTime()+(12*30*24*60*60*1000));
+    var date = date.toUTCString();
+    
+    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
+  }
+</script>
 <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 <script type="application/ld+json">
 {
@@ -213,67 +254,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 <p>Zu den f&ouml;rderf&auml;higen Ma&szlig;nahmen z&auml;hlen hier ebenfalls Heizungsoptimierung und -erneuerung, D&auml;mmma&szlig;nahmen an W&auml;nden, Dachfl&auml;chen oder Geschossdecken, Erneuerung von Fenstern und Au&szlig;ent&uuml;ren sowie der Einbau digitaler Systeme zur energetischen Betriebs- und Verbrauchsoptimierung. Eine wichtige Voraussetzung ist, dass das betroffene Geb&auml;ude bei Durchf&uuml;hrung der Ma&szlig;nahme &auml;lter als zehn Jahre sein muss und ausschlie&szlig;lich zu eigenen Wohnzwecken genutzt wird. Im Gegensatz zur direkten Zuschussf&ouml;rderung muss der Steuerbonus nicht vorab beantragt werden. Die Geltendmachung erfolgt nachtr&auml;glich &uuml;ber die j&auml;hrliche Einkommensteuererkl&auml;rung. Dies bietet eine h&ouml;here Flexibilit&auml;t, da man mit den Ma&szlig;nahmen beginnen kann, ohne auf eine F&ouml;rderzusage warten zu m&uuml;ssen. Allerdings ist eine Bescheinigung eines Fachunternehmens nach amtlichem Muster erforderlich, welche die korrekte Durchf&uuml;hrung der Ma&szlig;nahmen gem&auml;&szlig; den gesetzlichen Mindestanforderungen best&auml;tigt. Ein Energieeffizienz-Experte ist hier nicht zwingend vorgeschrieben, kann aber zur Sicherstellung der Qualit&auml;t und Einhaltung der Vorgaben sinnvoll sein. Der entscheidende Aspekt dieser F&ouml;rderoption ist die direkte Verkn&uuml;pfung mit der<strong> </strong>Steuererkl&auml;rung: Nur wer ausreichend Einkommensteuer zahlt, kann den Bonus in voller H&ouml;he nutzen. Die Liquidit&auml;t f&uuml;r die Sanierung muss zun&auml;chst vollst&auml;ndig selbst aufgebracht werden, da die Entlastung erst zeitverz&ouml;gert &uuml;ber die Steuererstattung erfolgt.</p>
 
-
-
-<script>
-  // Prepare variables
-  var currentFullUrl = window.location.href;
-  var referrer = document.referrer;
-  
-  // Set Referrer as cookie if not set before
-  if(!getCookie("referrer")) {
-    setCookie('referrer', referrer);
-  }
-  // Set First Visit URL as cookie if not set before
-  if(!getCookie("first_visit_url")) {
-    setCookie('first_visit_url', currentFullUrl);
-  }
-  // Set Last Visit URL as cookie (changes every visit)
-  //setCookie('last_visit_url', currentFullUrl);
-  
-  // Helper function to find cookie
-  function getCookie(c_name) {
-    var c_value = document.cookie,
-        c_start = c_value.indexOf(" " + c_name + "=");
-    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
-    if (c_start == -1) {
-        c_value = null;
-    } else {
-        c_start = c_value.indexOf("=", c_start) + 1;
-        var c_end = c_value.indexOf(";", c_start);
-        if (c_end == -1) {
-            c_end = c_value.length;
-        }
-        c_value = unescape(c_value.substring(c_start, c_end));
-    }
-    return c_value;
-  }
-  
-  // Helper function to set cookie
-  function setCookie(cookieName, cookieValue) {
-    // Get today in 1 year for expiration date of cookie
-    var date = new Date();
-    date.setTime(date.getTime()+(12*30*24*60*60*1000));
-    var date = date.toUTCString();
-    
-    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
-  }
-</script>
-
-
-<script>
-  var queryParams = new URLSearchParams(window.location.search);
-  queryParams.set("referrer", getCookie('referrer'));
-  queryParams.set("first_visit_url", getCookie('first_visit_url'));
-  queryParams.set("useragent", encodeURIComponent(window.navigator.userAgent));
-  history.replaceState(null, null, "?" + queryParams.toString());
-
-  var customRegionHeadline = queryParams.get('headline');
-  if(customRegionHeadline) {
-    const h = document.querySelector('#flow .section__title.center');
-    if(h) h.innerText = "Kompetente Energieberatung in " + customRegionHeadline;
-  }
-</script>
 
 
 <style>
@@ -422,67 +402,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 
 <p>M&ouml;chten Sie herausfinden, welcher F&ouml;rderweg f&uuml;r Ihr Sanierungsprojekt der richtige ist und wie Sie Ihre F&ouml;rderungen optimal nutzen k&ouml;nnen? Kontaktieren Sie uns f&uuml;r eine umfassende und individuelle Beratung. Wir helfen Ihnen, die passende Strategie f&uuml;r Ihre energetische Modernisierung zu entwickeln.</p>
-
-<script>
-  // Prepare variables
-  var currentFullUrl = window.location.href;
-  var referrer = document.referrer;
-  
-  // Set Referrer as cookie if not set before
-  if(!getCookie("referrer")) {
-    setCookie('referrer', referrer);
-  }
-  // Set First Visit URL as cookie if not set before
-  if(!getCookie("first_visit_url")) {
-    setCookie('first_visit_url', currentFullUrl);
-  }
-  // Set Last Visit URL as cookie (changes every visit)
-  //setCookie('last_visit_url', currentFullUrl);
-  
-  // Helper function to find cookie
-  function getCookie(c_name) {
-    var c_value = document.cookie,
-        c_start = c_value.indexOf(" " + c_name + "=");
-    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
-    if (c_start == -1) {
-        c_value = null;
-    } else {
-        c_start = c_value.indexOf("=", c_start) + 1;
-        var c_end = c_value.indexOf(";", c_start);
-        if (c_end == -1) {
-            c_end = c_value.length;
-        }
-        c_value = unescape(c_value.substring(c_start, c_end));
-    }
-    return c_value;
-  }
-  
-  // Helper function to set cookie
-  function setCookie(cookieName, cookieValue) {
-    // Get today in 1 year for expiration date of cookie
-    var date = new Date();
-    date.setTime(date.getTime()+(12*30*24*60*60*1000));
-    var date = date.toUTCString();
-    
-    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
-  }
-</script>
-
-
-<script>
-  var queryParams = new URLSearchParams(window.location.search);
-  queryParams.set("referrer", getCookie('referrer'));
-  queryParams.set("first_visit_url", getCookie('first_visit_url'));
-  queryParams.set("useragent", encodeURIComponent(window.navigator.userAgent));
-  history.replaceState(null, null, "?" + queryParams.toString());
-
-  var customRegionHeadline = queryParams.get('headline');
-  if(customRegionHeadline) {
-    const h = document.querySelector('#flow .section__title.center');
-    if(h) h.innerText = "Kompetente Energieberatung in " + customRegionHeadline;
-  }
-</script>
-
 
 <style>
   .widget-wrapper {

@@ -71,7 +71,48 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 <link rel="shortlink" href="https://enwendo.de/wissen/?p=519">
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://enwendo.de/wissen/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fenwendo.de%2Fwissen%2Fphotovoltaik-pv-anbieter-vergleich%2F">
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://enwendo.de/wissen/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fenwendo.de%2Fwissen%2Fphotovoltaik-pv-anbieter-vergleich%2F&amp;format=xml">
-
+<script>
+  // Prepare variables
+  var currentFullUrl = window.location.href;
+  var referrer = document.referrer;
+  
+  // Set Referrer as cookie if not set before
+  if(!getCookie("referrer")) {
+    setCookie('referrer', referrer);
+  }
+  // Set First Visit URL as cookie if not set before
+  if(!getCookie("first_visit_url")) {
+    setCookie('first_visit_url', currentFullUrl);
+  }
+  
+  // Helper function to find cookie
+  function getCookie(c_name) {
+    var c_value = document.cookie,
+        c_start = c_value.indexOf(" " + c_name + "=");
+    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
+    if (c_start == -1) {
+        c_value = null;
+    } else {
+        c_start = c_value.indexOf("=", c_start) + 1;
+        var c_end = c_value.indexOf(";", c_start);
+        if (c_end == -1) {
+            c_end = c_value.length;
+        }
+        c_value = unescape(c_value.substring(c_start, c_end));
+    }
+    return c_value;
+  }
+  
+  // Helper function to set cookie
+  function setCookie(cookieName, cookieValue) {
+    // Get today in 1 year for expiration date of cookie
+    var date = new Date();
+    date.setTime(date.getTime()+(12*30*24*60*60*1000));
+    var date = date.toUTCString();
+    
+    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
+  }
+</script>
 <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 <script type="application/ld+json">
 {
@@ -202,67 +243,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 <p><strong>Energieversorger und Stadtwerke:</strong> Viele etablierte Energieversorger haben ihr Gesch&auml;ftsfeld erweitert und bieten ebenfalls Photovoltaikanlagen an. Der gro&szlig;e Vorteil ist das Vertrauen, das diese Unternehmen als langj&auml;hrige Partner in der Energieversorgung genie&szlig;en. Oft kombinieren sie den Anlagenkauf mit speziellen Stromtarifen f&uuml;r die Einspeisung oder den Reststrombezug. Das schafft eine bequeme &bdquo;Alles-aus-einer-Hand&ldquo;-L&ouml;sung. Allerdings sind sie nicht immer die g&uuml;nstigsten Anbieter, und die Spezialisierung auf die reine Installationstechnik kann geringer sein als bei einem reinen Fachbetrieb. Ihre Angebote sind oft weniger individualisierbar als die von spezialisierten Solarteuren.</p>
 
-
-
-<script>
-  // Prepare variables
-  var currentFullUrl = window.location.href;
-  var referrer = document.referrer;
-  
-  // Set Referrer as cookie if not set before
-  if(!getCookie("referrer")) {
-    setCookie('referrer', referrer);
-  }
-  // Set First Visit URL as cookie if not set before
-  if(!getCookie("first_visit_url")) {
-    setCookie('first_visit_url', currentFullUrl);
-  }
-  // Set Last Visit URL as cookie (changes every visit)
-  //setCookie('last_visit_url', currentFullUrl);
-  
-  // Helper function to find cookie
-  function getCookie(c_name) {
-    var c_value = document.cookie,
-        c_start = c_value.indexOf(" " + c_name + "=");
-    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
-    if (c_start == -1) {
-        c_value = null;
-    } else {
-        c_start = c_value.indexOf("=", c_start) + 1;
-        var c_end = c_value.indexOf(";", c_start);
-        if (c_end == -1) {
-            c_end = c_value.length;
-        }
-        c_value = unescape(c_value.substring(c_start, c_end));
-    }
-    return c_value;
-  }
-  
-  // Helper function to set cookie
-  function setCookie(cookieName, cookieValue) {
-    // Get today in 1 year for expiration date of cookie
-    var date = new Date();
-    date.setTime(date.getTime()+(12*30*24*60*60*1000));
-    var date = date.toUTCString();
-    
-    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
-  }
-</script>
-
-
-<script>
-  var queryParams = new URLSearchParams(window.location.search);
-  queryParams.set("referrer", getCookie('referrer'));
-  queryParams.set("first_visit_url", getCookie('first_visit_url'));
-  queryParams.set("useragent", encodeURIComponent(window.navigator.userAgent));
-  history.replaceState(null, null, "?" + queryParams.toString());
-
-  var customRegionHeadline = queryParams.get('headline');
-  if(customRegionHeadline) {
-    const h = document.querySelector('#flow .section__title.center');
-    if(h) h.innerText = "Kompetente Energieberatung in " + customRegionHeadline;
-  }
-</script>
 
 
 <style>
@@ -427,67 +407,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 
 <p><strong>Kontaktieren Sie uns f&uuml;r eine unverbindliche Erstberatung. Wir helfen Ihnen, die beste L&ouml;sung f&uuml;r Ihr Zuhause zu finden und begleiten Sie auf dem Weg zu sauberem und g&uuml;nstigem Solarstrom.</strong></p>
-
-<script>
-  // Prepare variables
-  var currentFullUrl = window.location.href;
-  var referrer = document.referrer;
-  
-  // Set Referrer as cookie if not set before
-  if(!getCookie("referrer")) {
-    setCookie('referrer', referrer);
-  }
-  // Set First Visit URL as cookie if not set before
-  if(!getCookie("first_visit_url")) {
-    setCookie('first_visit_url', currentFullUrl);
-  }
-  // Set Last Visit URL as cookie (changes every visit)
-  //setCookie('last_visit_url', currentFullUrl);
-  
-  // Helper function to find cookie
-  function getCookie(c_name) {
-    var c_value = document.cookie,
-        c_start = c_value.indexOf(" " + c_name + "=");
-    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
-    if (c_start == -1) {
-        c_value = null;
-    } else {
-        c_start = c_value.indexOf("=", c_start) + 1;
-        var c_end = c_value.indexOf(";", c_start);
-        if (c_end == -1) {
-            c_end = c_value.length;
-        }
-        c_value = unescape(c_value.substring(c_start, c_end));
-    }
-    return c_value;
-  }
-  
-  // Helper function to set cookie
-  function setCookie(cookieName, cookieValue) {
-    // Get today in 1 year for expiration date of cookie
-    var date = new Date();
-    date.setTime(date.getTime()+(12*30*24*60*60*1000));
-    var date = date.toUTCString();
-    
-    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
-  }
-</script>
-
-
-<script>
-  var queryParams = new URLSearchParams(window.location.search);
-  queryParams.set("referrer", getCookie('referrer'));
-  queryParams.set("first_visit_url", getCookie('first_visit_url'));
-  queryParams.set("useragent", encodeURIComponent(window.navigator.userAgent));
-  history.replaceState(null, null, "?" + queryParams.toString());
-
-  var customRegionHeadline = queryParams.get('headline');
-  if(customRegionHeadline) {
-    const h = document.querySelector('#flow .section__title.center');
-    if(h) h.innerText = "Kompetente Energieberatung in " + customRegionHeadline;
-  }
-</script>
-
 
 <style>
   .widget-wrapper {

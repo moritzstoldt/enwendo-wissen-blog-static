@@ -70,7 +70,48 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 <link rel="shortlink" href="https://enwendo.de/wissen/?p=102">
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://enwendo.de/wissen/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fenwendo.de%2Fwissen%2Fenergie-effizienz-experten%2F">
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://enwendo.de/wissen/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fenwendo.de%2Fwissen%2Fenergie-effizienz-experten%2F&amp;format=xml">
-
+<script>
+  // Prepare variables
+  var currentFullUrl = window.location.href;
+  var referrer = document.referrer;
+  
+  // Set Referrer as cookie if not set before
+  if(!getCookie("referrer")) {
+    setCookie('referrer', referrer);
+  }
+  // Set First Visit URL as cookie if not set before
+  if(!getCookie("first_visit_url")) {
+    setCookie('first_visit_url', currentFullUrl);
+  }
+  
+  // Helper function to find cookie
+  function getCookie(c_name) {
+    var c_value = document.cookie,
+        c_start = c_value.indexOf(" " + c_name + "=");
+    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
+    if (c_start == -1) {
+        c_value = null;
+    } else {
+        c_start = c_value.indexOf("=", c_start) + 1;
+        var c_end = c_value.indexOf(";", c_start);
+        if (c_end == -1) {
+            c_end = c_value.length;
+        }
+        c_value = unescape(c_value.substring(c_start, c_end));
+    }
+    return c_value;
+  }
+  
+  // Helper function to set cookie
+  function setCookie(cookieName, cookieValue) {
+    // Get today in 1 year for expiration date of cookie
+    var date = new Date();
+    date.setTime(date.getTime()+(12*30*24*60*60*1000));
+    var date = date.toUTCString();
+    
+    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
+  }
+</script>
 <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 <script type="application/ld+json">
 {
@@ -193,67 +234,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 <p>Energie-Effizienz-Experten unterst&uuml;tzen nicht nur Unternehmen und &ouml;ffentliche Einrichtungen, sondern auch Privatpersonen bei verschiedenen Aspekten der Energieeffizienz. Insbesondere k&ouml;nnen sie Privatleuten bei der Nutzung von F&ouml;rderprogrammen und finanziellen Anreizen behilflich sein. In Deutschland gibt es eine Vielzahl von F&ouml;rderprogrammen auf regionaler, nationaler und europ&auml;ischer Ebene, die energetische Ma&szlig;nahmen in Privathaushalten unterst&uuml;tzen. Energie-Effizienz-Experten kennen diese Programme genau und k&ouml;nnen ihre Kunden dabei unterst&uuml;tzen, die geeigneten F&ouml;rderprogramme auszuw&auml;hlen und den Antragsprozess erfolgreich zu durchlaufen. Sie helfen dabei, die Voraussetzungen zu erf&uuml;llen, die Antragsunterlagen vorzubereiten und begleiten ihre Kunden w&auml;hrend des gesamten Prozesses. Durch ihre Fachkenntnisse und Erfahrungen k&ouml;nnen Energie-Effizienz-Experten sicherstellen, dass Privatpersonen von den verf&uuml;gbaren finanziellen Unterst&uuml;tzungen profitieren und somit die Umsetzung energieeffizienter Ma&szlig;nahmen erleichtert wird. Dies erm&ouml;glicht den Privatleuten nicht nur Einsparungen bei den Energiekosten, sondern tr&auml;gt auch dazu bei, die Umweltauswirkungen zu reduzieren und einen Beitrag zum Klimaschutz zu leisten.</p>
 
-
-
-<script>
-  // Prepare variables
-  var currentFullUrl = window.location.href;
-  var referrer = document.referrer;
-  
-  // Set Referrer as cookie if not set before
-  if(!getCookie("referrer")) {
-    setCookie('referrer', referrer);
-  }
-  // Set First Visit URL as cookie if not set before
-  if(!getCookie("first_visit_url")) {
-    setCookie('first_visit_url', currentFullUrl);
-  }
-  // Set Last Visit URL as cookie (changes every visit)
-  //setCookie('last_visit_url', currentFullUrl);
-  
-  // Helper function to find cookie
-  function getCookie(c_name) {
-    var c_value = document.cookie,
-        c_start = c_value.indexOf(" " + c_name + "=");
-    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
-    if (c_start == -1) {
-        c_value = null;
-    } else {
-        c_start = c_value.indexOf("=", c_start) + 1;
-        var c_end = c_value.indexOf(";", c_start);
-        if (c_end == -1) {
-            c_end = c_value.length;
-        }
-        c_value = unescape(c_value.substring(c_start, c_end));
-    }
-    return c_value;
-  }
-  
-  // Helper function to set cookie
-  function setCookie(cookieName, cookieValue) {
-    // Get today in 1 year for expiration date of cookie
-    var date = new Date();
-    date.setTime(date.getTime()+(12*30*24*60*60*1000));
-    var date = date.toUTCString();
-    
-    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
-  }
-</script>
-
-
-<script>
-  var queryParams = new URLSearchParams(window.location.search);
-  queryParams.set("referrer", getCookie('referrer'));
-  queryParams.set("first_visit_url", getCookie('first_visit_url'));
-  queryParams.set("useragent", encodeURIComponent(window.navigator.userAgent));
-  history.replaceState(null, null, "?" + queryParams.toString());
-
-  var customRegionHeadline = queryParams.get('headline');
-  if(customRegionHeadline) {
-    const h = document.querySelector('#flow .section__title.center');
-    if(h) h.innerText = "Kompetente Energieberatung in " + customRegionHeadline;
-  }
-</script>
 
 
 <style>
@@ -447,67 +427,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 
 <p></p>
-
-<script>
-  // Prepare variables
-  var currentFullUrl = window.location.href;
-  var referrer = document.referrer;
-  
-  // Set Referrer as cookie if not set before
-  if(!getCookie("referrer")) {
-    setCookie('referrer', referrer);
-  }
-  // Set First Visit URL as cookie if not set before
-  if(!getCookie("first_visit_url")) {
-    setCookie('first_visit_url', currentFullUrl);
-  }
-  // Set Last Visit URL as cookie (changes every visit)
-  //setCookie('last_visit_url', currentFullUrl);
-  
-  // Helper function to find cookie
-  function getCookie(c_name) {
-    var c_value = document.cookie,
-        c_start = c_value.indexOf(" " + c_name + "=");
-    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
-    if (c_start == -1) {
-        c_value = null;
-    } else {
-        c_start = c_value.indexOf("=", c_start) + 1;
-        var c_end = c_value.indexOf(";", c_start);
-        if (c_end == -1) {
-            c_end = c_value.length;
-        }
-        c_value = unescape(c_value.substring(c_start, c_end));
-    }
-    return c_value;
-  }
-  
-  // Helper function to set cookie
-  function setCookie(cookieName, cookieValue) {
-    // Get today in 1 year for expiration date of cookie
-    var date = new Date();
-    date.setTime(date.getTime()+(12*30*24*60*60*1000));
-    var date = date.toUTCString();
-    
-    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
-  }
-</script>
-
-
-<script>
-  var queryParams = new URLSearchParams(window.location.search);
-  queryParams.set("referrer", getCookie('referrer'));
-  queryParams.set("first_visit_url", getCookie('first_visit_url'));
-  queryParams.set("useragent", encodeURIComponent(window.navigator.userAgent));
-  history.replaceState(null, null, "?" + queryParams.toString());
-
-  var customRegionHeadline = queryParams.get('headline');
-  if(customRegionHeadline) {
-    const h = document.querySelector('#flow .section__title.center');
-    if(h) h.innerText = "Kompetente Energieberatung in " + customRegionHeadline;
-  }
-</script>
-
 
 <style>
   .widget-wrapper {

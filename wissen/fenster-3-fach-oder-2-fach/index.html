@@ -71,7 +71,48 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 <link rel="shortlink" href="https://enwendo.de/wissen/?p=496">
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://enwendo.de/wissen/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fenwendo.de%2Fwissen%2Ffenster-3-fach-oder-2-fach%2F">
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://enwendo.de/wissen/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fenwendo.de%2Fwissen%2Ffenster-3-fach-oder-2-fach%2F&amp;format=xml">
-
+<script>
+  // Prepare variables
+  var currentFullUrl = window.location.href;
+  var referrer = document.referrer;
+  
+  // Set Referrer as cookie if not set before
+  if(!getCookie("referrer")) {
+    setCookie('referrer', referrer);
+  }
+  // Set First Visit URL as cookie if not set before
+  if(!getCookie("first_visit_url")) {
+    setCookie('first_visit_url', currentFullUrl);
+  }
+  
+  // Helper function to find cookie
+  function getCookie(c_name) {
+    var c_value = document.cookie,
+        c_start = c_value.indexOf(" " + c_name + "=");
+    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
+    if (c_start == -1) {
+        c_value = null;
+    } else {
+        c_start = c_value.indexOf("=", c_start) + 1;
+        var c_end = c_value.indexOf(";", c_start);
+        if (c_end == -1) {
+            c_end = c_value.length;
+        }
+        c_value = unescape(c_value.substring(c_start, c_end));
+    }
+    return c_value;
+  }
+  
+  // Helper function to set cookie
+  function setCookie(cookieName, cookieValue) {
+    // Get today in 1 year for expiration date of cookie
+    var date = new Date();
+    date.setTime(date.getTime()+(12*30*24*60*60*1000));
+    var date = date.toUTCString();
+    
+    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
+  }
+</script>
 <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 <script type="application/ld+json">
 {
@@ -276,67 +317,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 <figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>Merkmal</strong></td><td><strong>2-fach Verglasung</strong></td><td><strong>3-fach Verglasung</strong></td></tr><tr><td>U-Wert (W&auml;rmed&auml;mmung)</td><td>ca. 1,1&ndash;1,5 W/m&sup2;K</td><td>ca. 0,5&ndash;0,8 W/m&sup2;K</td></tr><tr><td>Kosten</td><td>g&uuml;nstiger in der Anschaffung</td><td>ca. 10&ndash;15 % teurer</td></tr><tr><td>F&ouml;rderf&auml;higkeit</td><td>meist nicht f&ouml;rderf&auml;hig</td><td>BAFA &amp; iSFP-bonusf&auml;hig</td></tr><tr><td>Schallschutz</td><td>begrenzt, abh&auml;ngig vom Aufbau</td><td>besser, aber nicht automatisch optimal</td></tr><tr><td>g-Wert (solare Gewinne)</td><td>h&ouml;her, mehr W&auml;rme durch Sonneneinstrahlung</td><td>niedriger, weniger solare Gewinne</td></tr><tr><td>Einsatzbereich</td><td>Altbau ohne D&auml;mmung, einzelne Fenster</td><td>Neubau, energetisch sanierte Geb&auml;ude</td></tr></tbody></table></figure>
 
-
-
-<script>
-  // Prepare variables
-  var currentFullUrl = window.location.href;
-  var referrer = document.referrer;
-  
-  // Set Referrer as cookie if not set before
-  if(!getCookie("referrer")) {
-    setCookie('referrer', referrer);
-  }
-  // Set First Visit URL as cookie if not set before
-  if(!getCookie("first_visit_url")) {
-    setCookie('first_visit_url', currentFullUrl);
-  }
-  // Set Last Visit URL as cookie (changes every visit)
-  //setCookie('last_visit_url', currentFullUrl);
-  
-  // Helper function to find cookie
-  function getCookie(c_name) {
-    var c_value = document.cookie,
-        c_start = c_value.indexOf(" " + c_name + "=");
-    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
-    if (c_start == -1) {
-        c_value = null;
-    } else {
-        c_start = c_value.indexOf("=", c_start) + 1;
-        var c_end = c_value.indexOf(";", c_start);
-        if (c_end == -1) {
-            c_end = c_value.length;
-        }
-        c_value = unescape(c_value.substring(c_start, c_end));
-    }
-    return c_value;
-  }
-  
-  // Helper function to set cookie
-  function setCookie(cookieName, cookieValue) {
-    // Get today in 1 year for expiration date of cookie
-    var date = new Date();
-    date.setTime(date.getTime()+(12*30*24*60*60*1000));
-    var date = date.toUTCString();
-    
-    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
-  }
-</script>
-
-
-<script>
-  var queryParams = new URLSearchParams(window.location.search);
-  queryParams.set("referrer", getCookie('referrer'));
-  queryParams.set("first_visit_url", getCookie('first_visit_url'));
-  queryParams.set("useragent", encodeURIComponent(window.navigator.userAgent));
-  history.replaceState(null, null, "?" + queryParams.toString());
-
-  var customRegionHeadline = queryParams.get('headline');
-  if(customRegionHeadline) {
-    const h = document.querySelector('#flow .section__title.center');
-    if(h) h.innerText = "Kompetente Energieberatung in " + customRegionHeadline;
-  }
-</script>
 
 
 <style>
@@ -726,67 +706,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 
 <div class="schema-faq wp-block-yoast-faq-block"><div class="schema-faq-section" id="faq-question-1755619336322"><strong class="schema-faq-question">Sind 3-fach verglaste Fenster wirklich immer besser?</strong> <p class="schema-faq-answer">In puncto W&auml;rmed&auml;mmung ja &ndash; sie haben deutlich bessere U-Werte und sparen langfristig Heizkosten. Ob sie sich lohnen, h&auml;ngt aber vom Geb&auml;udezustand ab. In unsanierten Altbauten kann auch 2-fach-Verglasung sinnvoll sein.</p> </div> <div class="schema-faq-section" id="faq-question-1755619370149"><strong class="schema-faq-question">Bekomme ich F&ouml;rderung auch f&uuml;r 2-fach verglaste Fenster?</strong> <p class="schema-faq-answer">Nein. F&ouml;rderf&auml;hig sind nur Fenster mit 3-fach-Verglasung, die die technischen Mindestwerte erf&uuml;llen. &Uuml;ber das BAFA gibt es 15 % Zuschuss, mit iSFP-Bonus sogar 20 %.</p> </div> <div class="schema-faq-section" id="faq-question-1755619385399"><strong class="schema-faq-question">Wie viel teurer sind 3-fach-Fenster im Vergleich zu 2-fach?</strong> <p class="schema-faq-answer">Der Aufpreis liegt im Schnitt bei etwa 10 bis 15 Prozent. Die genauen Kosten h&auml;ngen von Gr&ouml;&szlig;e, Rahmenmaterial und Einbau ab.</p> </div> <div class="schema-faq-section" id="faq-question-1755619404383"><strong class="schema-faq-question">Wie lange dauert es, bis sich 3-fach-Fenster amortisieren?</strong> <p class="schema-faq-answer">Je nach Energiepreis und D&auml;mmzustand des Hauses betr&auml;gt die Amortisationszeit 10 bis 20 Jahre. Mit F&ouml;rderung verk&uuml;rzt sie sich sp&uuml;rbar.</p> </div> <div class="schema-faq-section" id="faq-question-1755619423411"><strong class="schema-faq-question">Bieten 3-fach-Fenster automatisch besseren Schallschutz?</strong> <p class="schema-faq-answer">Nicht unbedingt. Schallschutz h&auml;ngt neben der Anzahl der Scheiben auch von deren Aufbau und Dicke ab. Ein spezielles 2-fach-Schallschutzglas kann in manchen F&auml;llen sogar besser d&auml;mmen als ein Standard-3-fach-Fenster.</p> </div> <div class="schema-faq-section" id="faq-question-1755619434515"><strong class="schema-faq-question">Kann es durch 3-fach-Verglasung zu Schimmel kommen?</strong> <p class="schema-faq-answer">Ja, wenn sie in eine unged&auml;mmte Fassade eingebaut werden. Dann k&uuml;hlt die Wand st&auml;rker aus, und es kann sich Feuchtigkeit niederschlagen. Deshalb sollten Fenster immer im Gesamtkonzept der Sanierung betrachtet werden.</p> </div> <div class="schema-faq-section" id="faq-question-1755619453149"><strong class="schema-faq-question">Was spricht gegen Dreifachverglasung?</strong> <p class="schema-faq-answer">Der Hauptnachteil sind die h&ouml;heren Anschaffungskosten. Au&szlig;erdem lassen 3-fach-Fenster weniger Sonnenw&auml;rme ins Haus (niedrigerer g-Wert) und k&ouml;nnen in unsanierten Altbauten zu Kondensatproblemen f&uuml;hren.</p> </div> <div class="schema-faq-section" id="faq-question-1755619469032"><strong class="schema-faq-question">Ist es besser, Fenster mit 2-fach- oder 3-fach-Verglasung zu haben?</strong> <p class="schema-faq-answer">In den meisten F&auml;llen ist 3-fach die bessere Wahl &ndash; sie bietet bessere D&auml;mmwerte, F&ouml;rderungen und langfristige Einsparungen. In unsanierten Altbauten ohne D&auml;mmung kann jedoch 2-fach sinnvoller sein.</p> </div> <div class="schema-faq-section" id="faq-question-1755619484015"><strong class="schema-faq-question">Warum keine 3-fach-Verglasung im Altbau?</strong> <p class="schema-faq-answer">Weil bei unged&auml;mmten Fassaden die W&auml;rmeverluste nicht prim&auml;r &uuml;ber die Fenster entstehen. 3-fach-Fenster k&ouml;nnen hier sogar Schimmel beg&uuml;nstigen, wenn die Wand k&auml;lter ist als das Glas.</p> </div> <div class="schema-faq-section" id="faq-question-1755619499898"><strong class="schema-faq-question">Welche Nachteile hat die Zweifachverglasung?</strong> <p class="schema-faq-answer">Sie bietet deutlich schlechtere W&auml;rmed&auml;mmung, ist nicht mehr f&ouml;rderf&auml;hig und steigert den Geb&auml;udewert weniger stark als moderne 3-fach-Verglasung.</p> </div> </div>
-
-<script>
-  // Prepare variables
-  var currentFullUrl = window.location.href;
-  var referrer = document.referrer;
-  
-  // Set Referrer as cookie if not set before
-  if(!getCookie("referrer")) {
-    setCookie('referrer', referrer);
-  }
-  // Set First Visit URL as cookie if not set before
-  if(!getCookie("first_visit_url")) {
-    setCookie('first_visit_url', currentFullUrl);
-  }
-  // Set Last Visit URL as cookie (changes every visit)
-  //setCookie('last_visit_url', currentFullUrl);
-  
-  // Helper function to find cookie
-  function getCookie(c_name) {
-    var c_value = document.cookie,
-        c_start = c_value.indexOf(" " + c_name + "=");
-    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
-    if (c_start == -1) {
-        c_value = null;
-    } else {
-        c_start = c_value.indexOf("=", c_start) + 1;
-        var c_end = c_value.indexOf(";", c_start);
-        if (c_end == -1) {
-            c_end = c_value.length;
-        }
-        c_value = unescape(c_value.substring(c_start, c_end));
-    }
-    return c_value;
-  }
-  
-  // Helper function to set cookie
-  function setCookie(cookieName, cookieValue) {
-    // Get today in 1 year for expiration date of cookie
-    var date = new Date();
-    date.setTime(date.getTime()+(12*30*24*60*60*1000));
-    var date = date.toUTCString();
-    
-    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
-  }
-</script>
-
-
-<script>
-  var queryParams = new URLSearchParams(window.location.search);
-  queryParams.set("referrer", getCookie('referrer'));
-  queryParams.set("first_visit_url", getCookie('first_visit_url'));
-  queryParams.set("useragent", encodeURIComponent(window.navigator.userAgent));
-  history.replaceState(null, null, "?" + queryParams.toString());
-
-  var customRegionHeadline = queryParams.get('headline');
-  if(customRegionHeadline) {
-    const h = document.querySelector('#flow .section__title.center');
-    if(h) h.innerText = "Kompetente Energieberatung in " + customRegionHeadline;
-  }
-</script>
-
 
 <style>
   .widget-wrapper {

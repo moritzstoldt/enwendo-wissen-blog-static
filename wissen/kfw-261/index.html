@@ -70,7 +70,48 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 <link rel="shortlink" href="https://enwendo.de/wissen/?p=73">
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://enwendo.de/wissen/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fenwendo.de%2Fwissen%2Fkfw-261%2F">
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://enwendo.de/wissen/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fenwendo.de%2Fwissen%2Fkfw-261%2F&amp;format=xml">
-
+<script>
+  // Prepare variables
+  var currentFullUrl = window.location.href;
+  var referrer = document.referrer;
+  
+  // Set Referrer as cookie if not set before
+  if(!getCookie("referrer")) {
+    setCookie('referrer', referrer);
+  }
+  // Set First Visit URL as cookie if not set before
+  if(!getCookie("first_visit_url")) {
+    setCookie('first_visit_url', currentFullUrl);
+  }
+  
+  // Helper function to find cookie
+  function getCookie(c_name) {
+    var c_value = document.cookie,
+        c_start = c_value.indexOf(" " + c_name + "=");
+    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
+    if (c_start == -1) {
+        c_value = null;
+    } else {
+        c_start = c_value.indexOf("=", c_start) + 1;
+        var c_end = c_value.indexOf(";", c_start);
+        if (c_end == -1) {
+            c_end = c_value.length;
+        }
+        c_value = unescape(c_value.substring(c_start, c_end));
+    }
+    return c_value;
+  }
+  
+  // Helper function to set cookie
+  function setCookie(cookieName, cookieValue) {
+    // Get today in 1 year for expiration date of cookie
+    var date = new Date();
+    date.setTime(date.getTime()+(12*30*24*60*60*1000));
+    var date = date.toUTCString();
+    
+    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
+  }
+</script>
 <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 <script type="application/ld+json">
 {
@@ -201,67 +242,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 <p>Das KfW-Programm 261 &bdquo;Energieeffizient Sanieren&ldquo; konzentriert sich ausschlie&szlig;lich auf umfassende energetische Sanierungen von Wohngeb&auml;uden. Im Gegensatz zu einigen anderen KfW-Programmen werden hier keine Einzelma&szlig;nahmen gef&ouml;rdert. Stattdessen zielt die KfW 261 darauf ab, Komplettsanierungen zu unterst&uuml;tzen, die ein Geb&auml;ude auf einen definierten Effizienzhaus-Standard heben. Die F&ouml;rderung staffelt sich nach den erreichten Effizienzhaus-Stufen, wobei das Spektrum vom Effizienzhaus 85 bis zum besonders anspruchsvollen Effizienzhaus 40 reicht. Jede dieser Stufen stellt spezifische Anforderungen an die Gesamtenergieeffizienz des sanierten Geb&auml;udes. Hausbesitzer, die eine F&ouml;rderung durch die KfW 261 in Anspruch nehmen m&ouml;chten, m&uuml;ssen daher ein ganzheitliches Sanierungskonzept verfolgen, das alle relevanten Aspekte der Geb&auml;udeh&uuml;lle und der Anlagentechnik ber&uuml;cksichtigt, um die angestrebte Effizienzhausstufe zu erreichen.</p>
 
-
-
-<script>
-  // Prepare variables
-  var currentFullUrl = window.location.href;
-  var referrer = document.referrer;
-  
-  // Set Referrer as cookie if not set before
-  if(!getCookie("referrer")) {
-    setCookie('referrer', referrer);
-  }
-  // Set First Visit URL as cookie if not set before
-  if(!getCookie("first_visit_url")) {
-    setCookie('first_visit_url', currentFullUrl);
-  }
-  // Set Last Visit URL as cookie (changes every visit)
-  //setCookie('last_visit_url', currentFullUrl);
-  
-  // Helper function to find cookie
-  function getCookie(c_name) {
-    var c_value = document.cookie,
-        c_start = c_value.indexOf(" " + c_name + "=");
-    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
-    if (c_start == -1) {
-        c_value = null;
-    } else {
-        c_start = c_value.indexOf("=", c_start) + 1;
-        var c_end = c_value.indexOf(";", c_start);
-        if (c_end == -1) {
-            c_end = c_value.length;
-        }
-        c_value = unescape(c_value.substring(c_start, c_end));
-    }
-    return c_value;
-  }
-  
-  // Helper function to set cookie
-  function setCookie(cookieName, cookieValue) {
-    // Get today in 1 year for expiration date of cookie
-    var date = new Date();
-    date.setTime(date.getTime()+(12*30*24*60*60*1000));
-    var date = date.toUTCString();
-    
-    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
-  }
-</script>
-
-
-<script>
-  var queryParams = new URLSearchParams(window.location.search);
-  queryParams.set("referrer", getCookie('referrer'));
-  queryParams.set("first_visit_url", getCookie('first_visit_url'));
-  queryParams.set("useragent", encodeURIComponent(window.navigator.userAgent));
-  history.replaceState(null, null, "?" + queryParams.toString());
-
-  var customRegionHeadline = queryParams.get('headline');
-  if(customRegionHeadline) {
-    const h = document.querySelector('#flow .section__title.center');
-    if(h) h.innerText = "Kompetente Energieberatung in " + customRegionHeadline;
-  }
-</script>
 
 
 <style>
@@ -475,67 +455,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 
 <p>Die KfW 261 &bdquo;Energieeffizient Sanieren&ldquo; bietet Hausbesitzern eine attraktive M&ouml;glichkeit, ihre Immobilien energetisch zu modernisieren und dabei von finanzieller Unterst&uuml;tzung zu profitieren. Die Kombination aus Energieeinsparung, Wertsteigerung und Klimaschutz macht das Programm f&uuml;r viele Eigent&uuml;mer zu einer lohnenswerten Option. Besonders f&uuml;r Besitzer &auml;lterer Immobilien oder bei ohnehin anstehenden Sanierungen kann sich die Teilnahme an der KfW 261 auszahlen. Allerdings erfordert die erfolgreiche Umsetzung eine sorgf&auml;ltige Planung und oft auch fachkundige Unterst&uuml;tzung. Letztendlich ist die Entscheidung f&uuml;r eine energetische Sanierung im Rahmen der KfW 261 eine Investition in die Zukunft &ndash; sowohl in die eigene als auch in die unseres Planeten. Mit den richtigen Vorbereitungen und einer durchdachten Umsetzung k&ouml;nnen Hausbesitzer von dieser F&ouml;rderung in vielf&auml;ltiger Weise profitieren.</p>
-
-<script>
-  // Prepare variables
-  var currentFullUrl = window.location.href;
-  var referrer = document.referrer;
-  
-  // Set Referrer as cookie if not set before
-  if(!getCookie("referrer")) {
-    setCookie('referrer', referrer);
-  }
-  // Set First Visit URL as cookie if not set before
-  if(!getCookie("first_visit_url")) {
-    setCookie('first_visit_url', currentFullUrl);
-  }
-  // Set Last Visit URL as cookie (changes every visit)
-  //setCookie('last_visit_url', currentFullUrl);
-  
-  // Helper function to find cookie
-  function getCookie(c_name) {
-    var c_value = document.cookie,
-        c_start = c_value.indexOf(" " + c_name + "=");
-    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
-    if (c_start == -1) {
-        c_value = null;
-    } else {
-        c_start = c_value.indexOf("=", c_start) + 1;
-        var c_end = c_value.indexOf(";", c_start);
-        if (c_end == -1) {
-            c_end = c_value.length;
-        }
-        c_value = unescape(c_value.substring(c_start, c_end));
-    }
-    return c_value;
-  }
-  
-  // Helper function to set cookie
-  function setCookie(cookieName, cookieValue) {
-    // Get today in 1 year for expiration date of cookie
-    var date = new Date();
-    date.setTime(date.getTime()+(12*30*24*60*60*1000));
-    var date = date.toUTCString();
-    
-    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
-  }
-</script>
-
-
-<script>
-  var queryParams = new URLSearchParams(window.location.search);
-  queryParams.set("referrer", getCookie('referrer'));
-  queryParams.set("first_visit_url", getCookie('first_visit_url'));
-  queryParams.set("useragent", encodeURIComponent(window.navigator.userAgent));
-  history.replaceState(null, null, "?" + queryParams.toString());
-
-  var customRegionHeadline = queryParams.get('headline');
-  if(customRegionHeadline) {
-    const h = document.querySelector('#flow .section__title.center');
-    if(h) h.innerText = "Kompetente Energieberatung in " + customRegionHeadline;
-  }
-</script>
-
 
 <style>
   .widget-wrapper {

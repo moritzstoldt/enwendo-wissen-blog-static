@@ -71,7 +71,48 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 <link rel="shortlink" href="https://enwendo.de/wissen/?p=531">
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://enwendo.de/wissen/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fenwendo.de%2Fwissen%2Fhydraulischer-abgleich%2F">
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://enwendo.de/wissen/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fenwendo.de%2Fwissen%2Fhydraulischer-abgleich%2F&amp;format=xml">
-
+<script>
+  // Prepare variables
+  var currentFullUrl = window.location.href;
+  var referrer = document.referrer;
+  
+  // Set Referrer as cookie if not set before
+  if(!getCookie("referrer")) {
+    setCookie('referrer', referrer);
+  }
+  // Set First Visit URL as cookie if not set before
+  if(!getCookie("first_visit_url")) {
+    setCookie('first_visit_url', currentFullUrl);
+  }
+  
+  // Helper function to find cookie
+  function getCookie(c_name) {
+    var c_value = document.cookie,
+        c_start = c_value.indexOf(" " + c_name + "=");
+    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
+    if (c_start == -1) {
+        c_value = null;
+    } else {
+        c_start = c_value.indexOf("=", c_start) + 1;
+        var c_end = c_value.indexOf(";", c_start);
+        if (c_end == -1) {
+            c_end = c_value.length;
+        }
+        c_value = unescape(c_value.substring(c_start, c_end));
+    }
+    return c_value;
+  }
+  
+  // Helper function to set cookie
+  function setCookie(cookieName, cookieValue) {
+    // Get today in 1 year for expiration date of cookie
+    var date = new Date();
+    date.setTime(date.getTime()+(12*30*24*60*60*1000));
+    var date = date.toUTCString();
+    
+    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
+  }
+</script>
 <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 <script type="application/ld+json">
 {
@@ -260,67 +301,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 <p><strong>Die Vorteile liegen auf der Hand: </strong>Sie sparen bis zu 15 % Heizkosten, senken Ihren Energieverbrauch, steigern den Wohnkomfort und reduzieren die CO&#8322;-Emissionen Ihres Hauses. Au&szlig;erdem ist der hydraulische Abgleich <strong>Voraussetzung f&uuml;r viele staatliche F&ouml;rderprogramme </strong>&ndash; ohne ihn gibt es weder Zusch&uuml;sse noch Kredite f&uuml;r energetische Sanierungen.</p>
 
-
-
-<script>
-  // Prepare variables
-  var currentFullUrl = window.location.href;
-  var referrer = document.referrer;
-  
-  // Set Referrer as cookie if not set before
-  if(!getCookie("referrer")) {
-    setCookie('referrer', referrer);
-  }
-  // Set First Visit URL as cookie if not set before
-  if(!getCookie("first_visit_url")) {
-    setCookie('first_visit_url', currentFullUrl);
-  }
-  // Set Last Visit URL as cookie (changes every visit)
-  //setCookie('last_visit_url', currentFullUrl);
-  
-  // Helper function to find cookie
-  function getCookie(c_name) {
-    var c_value = document.cookie,
-        c_start = c_value.indexOf(" " + c_name + "=");
-    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
-    if (c_start == -1) {
-        c_value = null;
-    } else {
-        c_start = c_value.indexOf("=", c_start) + 1;
-        var c_end = c_value.indexOf(";", c_start);
-        if (c_end == -1) {
-            c_end = c_value.length;
-        }
-        c_value = unescape(c_value.substring(c_start, c_end));
-    }
-    return c_value;
-  }
-  
-  // Helper function to set cookie
-  function setCookie(cookieName, cookieValue) {
-    // Get today in 1 year for expiration date of cookie
-    var date = new Date();
-    date.setTime(date.getTime()+(12*30*24*60*60*1000));
-    var date = date.toUTCString();
-    
-    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
-  }
-</script>
-
-
-<script>
-  var queryParams = new URLSearchParams(window.location.search);
-  queryParams.set("referrer", getCookie('referrer'));
-  queryParams.set("first_visit_url", getCookie('first_visit_url'));
-  queryParams.set("useragent", encodeURIComponent(window.navigator.userAgent));
-  history.replaceState(null, null, "?" + queryParams.toString());
-
-  var customRegionHeadline = queryParams.get('headline');
-  if(customRegionHeadline) {
-    const h = document.querySelector('#flow .section__title.center');
-    if(h) h.innerText = "Kompetente Energieberatung in " + customRegionHeadline;
-  }
-</script>
 
 
 <style>
@@ -657,67 +637,6 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 
 
 <div class="schema-faq wp-block-yoast-faq-block"><div class="schema-faq-section" id="faq-question-1755864658787"><strong class="schema-faq-question">M&uuml;ssen Eigent&uuml;mer einen hydraulischen Abgleich machen?</strong> <p class="schema-faq-answer">Ja &ndash; zumindest in vielen F&auml;llen. Wer F&ouml;rdermittel vom BAFA oder der KfW beantragt oder eine neue Heizung einbaut, muss den Abgleich nachweisen. Auch das Geb&auml;udeenergiegesetz schreibt eine effiziente Einstellung der Heizungsanlage vor, wozu der Abgleich geh&ouml;rt. Ohne ihn riskieren Sie F&ouml;rderausschluss und h&ouml;here Energiekosten.</p> </div> <div class="schema-faq-section" id="faq-question-1755864673504"><strong class="schema-faq-question">Ist der hydraulische Abgleich auch bei Fu&szlig;bodenheizungen n&ouml;tig?</strong> <p class="schema-faq-answer">Unbedingt. Gerade bei Fu&szlig;bodenheizungen kommt es ohne Abgleich h&auml;ufig zu gro&szlig;en Temperaturunterschieden zwischen den R&auml;umen. Mit dem Abgleich wird der Durchfluss in den Heizkreisen optimal eingestellt &ndash; das sorgt f&uuml;r gleichm&auml;&szlig;ige W&auml;rme und verhindert &Uuml;berhitzung einzelner Bereiche.</p> </div> <div class="schema-faq-section" id="faq-question-1755864686366"><strong class="schema-faq-question">Warum treten manchmal Flie&szlig;ger&auml;usche nach dem Abgleich auf?</strong> <p class="schema-faq-answer">Normalerweise wird die Anlage leiser, weil weniger Druckverluste entstehen. Wenn nach dem Abgleich dennoch Ger&auml;usche auftreten, liegt das meist an einer zu hoch eingestellten Pumpenleistung oder nicht korrekt justierten Ventilen. In diesem Fall sollte der Fachbetrieb nachregeln &ndash; es handelt sich nicht um einen Fehler des Verfahrens selbst.</p> </div> <div class="schema-faq-section" id="faq-question-1755864699114"><strong class="schema-faq-question">Wie lange dauert ein hydraulischer Abgleich?</strong> <p class="schema-faq-answer">F&uuml;r ein Einfamilienhaus dauert der Abgleich in der Regel 4 bis 7 Stunden. Je mehr Heizk&ouml;rper oder Heizkreise vorhanden sind, desto l&auml;nger ben&ouml;tigt der Fachbetrieb. Bei Mehrfamilienh&auml;usern kann die Durchf&uuml;hrung auch ein bis zwei Tage in Anspruch nehmen.</p> </div> <div class="schema-faq-section" id="faq-question-1755864751029"><strong class="schema-faq-question">Wie oft muss man einen hydraulischen Abgleich machen?</strong> <p class="schema-faq-answer">Ein korrekt durchgef&uuml;hrter hydraulischer Abgleich ist dauerhaft wirksam. Er muss nur dann wiederholt werden, wenn sich am Heizsystem etwas &auml;ndert &ndash; etwa durch den Austausch von Heizk&ouml;rpern, den Einbau einer neuen Heizung oder eine umfassende D&auml;mmung der Geb&auml;udeh&uuml;lle.</p> </div> <div class="schema-faq-section" id="faq-question-1755864763702"><strong class="schema-faq-question">Kann man den hydraulischen Abgleich selbst machen?</strong> <p class="schema-faq-answer">Nein. Zwar lassen sich Thermostatventile von Hand verstellen, doch ohne exakte Berechnung der Heizlast und des Durchflusses pro Raum bringt das keinen Nutzen. Au&szlig;erdem verlangen F&ouml;rderstellen ein fachgerechtes Protokoll &ndash; und das darf nur ein qualifizierter Fachbetrieb ausstellen.</p> </div> <div class="schema-faq-section" id="faq-question-1755864777108"><strong class="schema-faq-question">Was passiert, wenn man auf den hydraulischen Abgleich verzichtet?</strong> <p class="schema-faq-answer">Ohne Abgleich arbeiten Heizungen ineffizient: Manche R&auml;ume bleiben kalt, andere werden &uuml;berheizt. Die Anlage verbraucht mehr Energie, erzeugt st&ouml;rende Ger&auml;usche und kann auf Dauer sogar Schaden nehmen. Unterm Strich zahlen Sie Jahr f&uuml;r Jahr drauf &ndash; und verschenken F&ouml;rdermittel, die an den Abgleich gebunden sind.</p> </div> </div>
-
-<script>
-  // Prepare variables
-  var currentFullUrl = window.location.href;
-  var referrer = document.referrer;
-  
-  // Set Referrer as cookie if not set before
-  if(!getCookie("referrer")) {
-    setCookie('referrer', referrer);
-  }
-  // Set First Visit URL as cookie if not set before
-  if(!getCookie("first_visit_url")) {
-    setCookie('first_visit_url', currentFullUrl);
-  }
-  // Set Last Visit URL as cookie (changes every visit)
-  //setCookie('last_visit_url', currentFullUrl);
-  
-  // Helper function to find cookie
-  function getCookie(c_name) {
-    var c_value = document.cookie,
-        c_start = c_value.indexOf(" " + c_name + "=");
-    if (c_start == -1) c_start = c_value.indexOf(c_name + "=");
-    if (c_start == -1) {
-        c_value = null;
-    } else {
-        c_start = c_value.indexOf("=", c_start) + 1;
-        var c_end = c_value.indexOf(";", c_start);
-        if (c_end == -1) {
-            c_end = c_value.length;
-        }
-        c_value = unescape(c_value.substring(c_start, c_end));
-    }
-    return c_value;
-  }
-  
-  // Helper function to set cookie
-  function setCookie(cookieName, cookieValue) {
-    // Get today in 1 year for expiration date of cookie
-    var date = new Date();
-    date.setTime(date.getTime()+(12*30*24*60*60*1000));
-    var date = date.toUTCString();
-    
-    document.cookie = cookieName+'='+cookieValue+';expires='+date+';path=/';
-  }
-</script>
-
-
-<script>
-  var queryParams = new URLSearchParams(window.location.search);
-  queryParams.set("referrer", getCookie('referrer'));
-  queryParams.set("first_visit_url", getCookie('first_visit_url'));
-  queryParams.set("useragent", encodeURIComponent(window.navigator.userAgent));
-  history.replaceState(null, null, "?" + queryParams.toString());
-
-  var customRegionHeadline = queryParams.get('headline');
-  if(customRegionHeadline) {
-    const h = document.querySelector('#flow .section__title.center');
-    if(h) h.innerText = "Kompetente Energieberatung in " + customRegionHeadline;
-  }
-</script>
-
 
 <style>
   .widget-wrapper {
