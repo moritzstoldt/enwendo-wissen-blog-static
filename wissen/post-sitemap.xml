@@ -319,19 +319,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/energieberater-kosten/</loc>
-		<lastmod>2025-08-22T11:25:42+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Energieberater-Kosten.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-1632022508-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-scaled.jpeg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/hydraulischer-abgleich/</loc>
 		<lastmod>2025-08-22T12:14:44+00:00</lastmod>
 		<image:image>
@@ -345,13 +332,16 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/heizkostenvergleich/</loc>
-		<lastmod>2025-08-25T12:49:49+00:00</lastmod>
+		<loc>https://enwendo.de/wissen/energieberater-kosten/</loc>
+		<lastmod>2025-08-26T09:03:21+00:00</lastmod>
 		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/heizungskeller-scaled.jpeg</image:loc>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Energieberater-Kosten.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Oelheizung-scaled.jpeg</image:loc>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-1632022508-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-scaled.jpeg</image:loc>
 		</image:image>
 	</url>
 </urlset>
