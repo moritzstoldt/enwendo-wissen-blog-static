@@ -332,19 +332,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/heizkostenvergleich/</loc>
-		<lastmod>2025-08-26T09:19:52+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/heizungskeller-scaled.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Oelheizung-scaled.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1426308347-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/hydraulischer-abgleich/</loc>
 		<lastmod>2025-08-26T09:23:30+00:00</lastmod>
 		<image:image>
@@ -355,6 +342,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/Heizkoerper.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/heizkostenvergleich/</loc>
+		<lastmod>2025-08-26T11:56:46+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/heizungskeller-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-2183967764-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1426308347-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
