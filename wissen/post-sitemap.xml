@@ -267,22 +267,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/individueller-sanierungsfahrplan-isfp/</loc>
-		<lastmod>2025-08-19T12:24:58+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Individuelle-Sanierungsfahrplan.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-1.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-1.jpeg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/alte-heizung-austauschpflicht/</loc>
 		<lastmod>2025-08-19T12:27:44+00:00</lastmod>
 		<image:image>
@@ -345,6 +329,22 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-scaled.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/individueller-sanierungsfahrplan-isfp/</loc>
+		<lastmod>2025-08-27T15:34:12+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Individuelle-Sanierungsfahrplan.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-1.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-1.jpeg</image:loc>
 		</image:image>
 	</url>
 </urlset>
