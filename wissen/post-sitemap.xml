@@ -293,19 +293,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/heizkostenvergleich/</loc>
-		<lastmod>2025-08-27T10:45:33+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/heizungskeller-scaled.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-2183967764-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1426308347-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/fenster-3-fach-oder-2-fach/</loc>
 		<lastmod>2025-08-27T15:30:20+00:00</lastmod>
 		<image:image>
@@ -358,6 +345,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1340498346-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/heizkostenvergleich/</loc>
+		<lastmod>2025-08-28T13:06:57+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/heizungskeller-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-2183967764-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1426308347-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
