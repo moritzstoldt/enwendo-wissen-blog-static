@@ -347,4 +347,17 @@
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-1.jpeg</image:loc>
 		</image:image>
 	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/kosten-neue-fenster/</loc>
+		<lastmod>2025-08-28T13:05:51+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Foerderung-neue-Fenster.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1496476377-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1340498346-scaled.jpg</image:loc>
+		</image:image>
+	</url>
 </urlset>
