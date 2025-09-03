@@ -341,19 +341,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/sanierungspflicht/</loc>
-		<lastmod>2025-09-03T08:11:39+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/08/iStock-1305219914-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/08/iStock-1305219914-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/08/iStock-1175951734-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/fassadendaemmung/</loc>
 		<lastmod>2025-09-03T08:15:01+00:00</lastmod>
 		<image:image>
@@ -364,6 +351,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/08/iStock-604031402-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/sanierungspflicht/</loc>
+		<lastmod>2025-09-03T08:22:10+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/08/iStock-1305219914-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/08/iStock-1305219914-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/08/iStock-1175951734-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
