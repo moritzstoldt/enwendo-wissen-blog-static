@@ -1366,3 +1366,11 @@ a:not(.btn), .link {
     align-self: center; /* Keep icon centered */
   }
 }
+
+/* Youtube Embed */
+.wp-block-embed.is-type-video .wp-block-embed__wrapper { aspect-ratio: 16/9 !important; }
+.wp-block-embed.is-type-video .wp-block-embed__wrapper iframe {
+  width: 100% !important;
+  height: 100% !important;
+  border: 0 !important;
+}
