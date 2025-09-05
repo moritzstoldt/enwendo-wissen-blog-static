@@ -45,16 +45,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/steuerbonus-foerderung/</loc>
-		<lastmod>2025-08-12T08:03:09+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Waermepumpe-scaled.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Fassadendaemmung.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/neues-dach-kosten/</loc>
 		<lastmod>2025-08-12T08:03:17+00:00</lastmod>
 		<image:image>
@@ -377,6 +367,16 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/iStock-2174867389.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/steuerbonus-foerderung/</loc>
+		<lastmod>2025-09-05T09:30:27+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Waermepumpe-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Fassadendaemmung.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
