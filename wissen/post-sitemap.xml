@@ -169,16 +169,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/kfw-261/</loc>
-		<lastmod>2025-08-12T08:09:53+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Haus-sanieren-mit-Zuschuss.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/kfw-261.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/foerderung-daemmung/</loc>
 		<lastmod>2025-08-12T08:11:52+00:00</lastmod>
 		<image:image>
@@ -350,8 +340,18 @@
 		</image:image>
 	</url>
 	<url>
+		<loc>https://enwendo.de/wissen/effizienzklasse-haus/</loc>
+		<lastmod>2025-09-11T11:31:20+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-1410235329.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-1410235329.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://enwendo.de/wissen/pelletheizung-kosten/</loc>
-		<lastmod>2025-09-04T15:04:08+00:00</lastmod>
+		<lastmod>2025-09-12T12:40:06+00:00</lastmod>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/iStock-2213296751-scaled.jpg</image:loc>
 		</image:image>
@@ -360,16 +360,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/iStock-2174867389.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://enwendo.de/wissen/effizienzklasse-haus/</loc>
-		<lastmod>2025-09-11T11:31:20+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-1410235329.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-1410235329.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
