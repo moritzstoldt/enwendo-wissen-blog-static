@@ -346,16 +346,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/kfw-261/</loc>
-		<lastmod>2025-09-15T11:33:12+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-1390791369-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-527708053-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/bafa-foerderung-auszahlung-dauer/</loc>
 		<lastmod>2025-09-15T11:37:11+00:00</lastmod>
 		<image:image>
@@ -376,6 +366,16 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-2183528248-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/kfw-261/</loc>
+		<lastmod>2025-09-15T16:40:11+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-1390791369-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-527708053-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
