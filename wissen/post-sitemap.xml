@@ -369,13 +369,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/kfw-erganzungskredit-358-359/</loc>
-		<lastmod>2025-09-16T08:42:54+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/09/iStock-1385705316-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/kfw-261/</loc>
 		<lastmod>2025-09-16T08:43:36+00:00</lastmod>
 		<image:image>
@@ -396,6 +389,13 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-2229363556-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/kfw-erganzungskredit-358-359/</loc>
+		<lastmod>2025-09-16T12:30:22+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/09/iStock-1385705316-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
