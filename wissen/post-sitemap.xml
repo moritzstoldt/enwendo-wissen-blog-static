@@ -65,16 +65,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/waermepumpe-kosten/</loc>
-		<lastmod>2025-08-12T08:03:39+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Waermepumpe-scaled.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/kfw-261.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/dach-daemmen-tipps/</loc>
 		<lastmod>2025-08-12T08:03:56+00:00</lastmod>
 		<image:image>
@@ -386,6 +376,19 @@
 		<lastmod>2025-09-18T10:17:06+00:00</lastmod>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/09/iStock-1385705316-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/foerderung-waermepumpe/</loc>
+		<lastmod>2025-09-19T15:49:40+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-2153435679-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-2153435679-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-1438135787-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
