@@ -45,13 +45,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/neues-dach-kosten/</loc>
-		<lastmod>2025-08-12T08:03:17+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Dachdecker-scaled.jpeg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/kfw-458-heizung/</loc>
 		<lastmod>2025-08-12T08:03:29+00:00</lastmod>
 		<image:image>
@@ -132,16 +125,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/neue-fenster-forderung/</loc>
-		<lastmod>2025-08-12T08:09:24+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Foerderung-neue-Fenster.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-3.jpeg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/foerderung-daemmung/</loc>
 		<lastmod>2025-08-12T08:11:52+00:00</lastmod>
 		<image:image>
@@ -206,19 +189,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/Heizkoerper.png</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://enwendo.de/wissen/fenster-3-fach-oder-2-fach/</loc>
-		<lastmod>2025-08-27T15:30:20+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Fenster-einbau-scaled.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-918378040-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/05/KfW-Haus.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -389,6 +359,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-1438135787-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/fenster-3-fach-oder-2-fach/</loc>
+		<lastmod>2025-09-20T16:38:13+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Fenster-einbau-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-918378040-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/05/KfW-Haus.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
