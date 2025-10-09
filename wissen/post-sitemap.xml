@@ -201,19 +201,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/kosten-neue-fenster/</loc>
-		<lastmod>2025-09-01T11:09:27+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Foerderung-neue-Fenster.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1496476377-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1340498346-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/fassadendaemmung/</loc>
 		<lastmod>2025-09-03T08:15:01+00:00</lastmod>
 		<image:image>
@@ -411,6 +398,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/Heizkoerper.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/kosten-neue-fenster/</loc>
+		<lastmod>2025-10-09T07:30:28+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Foerderung-neue-Fenster.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1496476377-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1340498346-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
