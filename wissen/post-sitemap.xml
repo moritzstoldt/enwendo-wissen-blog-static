@@ -214,19 +214,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/sanierungspflicht/</loc>
-		<lastmod>2025-09-03T08:23:58+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/08/iStock-1305219914-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/08/iStock-1305219914-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/08/iStock-1175951734-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/effizienzklasse-haus/</loc>
 		<lastmod>2025-09-11T11:31:20+00:00</lastmod>
 		<image:image>
@@ -411,6 +398,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/05/KfW-Haus.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/sanierungspflicht/</loc>
+		<lastmod>2025-10-09T07:37:59+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/08/iStock-1305219914-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/08/iStock-1305219914-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/08/iStock-1175951734-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
