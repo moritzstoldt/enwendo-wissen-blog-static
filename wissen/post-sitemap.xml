@@ -303,19 +303,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/fenster-3-fach-oder-2-fach/</loc>
-		<lastmod>2025-09-20T16:38:13+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Fenster-einbau-scaled.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-918378040-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/05/KfW-Haus.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/foerderung-waermepumpe/</loc>
 		<lastmod>2025-09-23T11:03:26+00:00</lastmod>
 		<image:image>
@@ -411,6 +398,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1340498346-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/fenster-3-fach-oder-2-fach/</loc>
+		<lastmod>2025-10-09T07:36:17+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Fenster-einbau-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-918378040-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/05/KfW-Haus.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
