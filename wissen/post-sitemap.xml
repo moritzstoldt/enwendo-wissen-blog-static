@@ -172,19 +172,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/hydraulischer-abgleich/</loc>
-		<lastmod>2025-08-26T09:23:30+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/Hydraulischer-Abgleich.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/iStock-501854530-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/Heizkoerper.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/energieberater-kosten/</loc>
 		<lastmod>2025-08-27T15:32:38+00:00</lastmod>
 		<image:image>
@@ -411,6 +398,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1426308347-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/hydraulischer-abgleich/</loc>
+		<lastmod>2025-10-09T07:28:52+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/Hydraulischer-Abgleich.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/iStock-501854530-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/Heizkoerper.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
