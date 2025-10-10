@@ -8,13 +8,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/energieausweis-kosten/</loc>
-		<lastmod>2025-08-12T08:02:10+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Energieausweis.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/dampfbremse-dampfsperre/</loc>
 		<lastmod>2025-08-12T08:02:17+00:00</lastmod>
 		<image:image>
@@ -411,6 +404,13 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-1.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/energieausweis-kosten/</loc>
+		<lastmod>2025-10-10T10:26:21+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Energieausweis.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
