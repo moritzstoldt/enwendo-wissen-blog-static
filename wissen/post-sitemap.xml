@@ -28,16 +28,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/u-wert/</loc>
-		<lastmod>2025-08-12T08:02:41+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Daemmung-scaled.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Energieberater-Kosten.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/kfw-458-heizung/</loc>
 		<lastmod>2025-08-12T08:03:29+00:00</lastmod>
 		<image:image>
@@ -420,6 +410,16 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/iStock-1437896577-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/u-wert/</loc>
+		<lastmod>2025-10-10T12:56:41+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Daemmung-scaled.jpeg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Energieberater-Kosten.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
