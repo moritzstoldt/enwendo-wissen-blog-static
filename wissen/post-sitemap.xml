@@ -400,19 +400,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/lueftungskonzept-nach-din/</loc>
-		<lastmod>2025-10-10T12:28:33+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/05/KfW-Haus.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/iStock-640113202-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/iStock-1437896577-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/u-wert/</loc>
 		<lastmod>2025-10-10T13:43:56+00:00</lastmod>
 		<image:image>
@@ -423,6 +410,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-1180419236-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/lueftungskonzept-nach-din/</loc>
+		<lastmod>2025-10-10T13:44:39+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/05/KfW-Haus.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/iStock-640113202-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/iStock-1437896577-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
