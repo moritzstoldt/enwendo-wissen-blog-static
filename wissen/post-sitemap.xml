@@ -55,19 +55,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/energie-effizienz-experten/</loc>
-		<lastmod>2025-08-12T08:06:21+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Energie-Effizienz-Experte.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Technische-Projektbeschreibung.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/kfw-261.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/technische-projektbeschreibung-tpb/</loc>
 		<lastmod>2025-08-12T08:07:14+00:00</lastmod>
 		<image:image>
@@ -423,6 +410,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/07/iStock-1437896577-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/energie-effizienz-experten/</loc>
+		<lastmod>2025-10-17T10:04:47+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Energie-Effizienz-Experte.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Technische-Projektbeschreibung.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/kfw-261.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
