@@ -55,16 +55,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/isfp-bonus/</loc>
-		<lastmod>2025-08-12T08:07:22+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iSFP-Bonus.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-5.jpeg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/erdwarmepumpe-kosten-foerderung/</loc>
 		<lastmod>2025-08-12T08:09:15+00:00</lastmod>
 		<image:image>
@@ -576,6 +566,16 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1427608956-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/isfp-bonus/</loc>
+		<lastmod>2025-11-05T09:29:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iSFP-Bonus.png</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-5.jpeg</image:loc>
 		</image:image>
 	</url>
 </urlset>
