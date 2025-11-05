@@ -18,16 +18,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/neue-tueren-kosten/</loc>
-		<lastmod>2025-08-12T08:02:32+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Neue-Haustuer-scaled.jpeg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Neue-Haustuere.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/kfw-458-heizung/</loc>
 		<lastmod>2025-08-12T08:03:29+00:00</lastmod>
 		<image:image>
@@ -563,6 +553,16 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-2186727406-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/neue-tueren-kosten/</loc>
+		<lastmod>2025-11-05T09:20:08+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/10/iStock-2214654303-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/10/iStock-2058341699-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
