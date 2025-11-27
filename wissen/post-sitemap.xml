@@ -31,13 +31,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/kfw-foerderung/</loc>
-		<lastmod>2025-08-12T08:06:05+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/05/KfW-Haus.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/technische-projektbeschreibung-tpb/</loc>
 		<lastmod>2025-08-12T08:07:14+00:00</lastmod>
 		<image:image>
@@ -55,16 +48,6 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/image-4.jpeg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://enwendo.de/wissen/foerderung-daemmung/</loc>
-		<lastmod>2025-08-12T08:11:52+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Foerderung-Daemmung-Mann.png</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Fassadendaemmung.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
@@ -608,6 +591,25 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-473586364-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/was-sind-passivhaeuser/</loc>
+		<lastmod>2025-11-27T05:22:47+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1490734776-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-2181931194-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-2203464478.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1490734776-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1428628610-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
