@@ -8,16 +8,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/dampfbremse-dampfsperre/</loc>
-		<lastmod>2025-08-12T08:02:17+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Dachsanierung-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Dampfbremse-scaled.jpeg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/kfw-458-heizung/</loc>
 		<lastmod>2025-08-12T08:03:29+00:00</lastmod>
 		<image:image>
@@ -626,6 +616,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/05/iStock-1419268083-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/dampfbremse-dampfsperre/</loc>
+		<lastmod>2025-12-01T15:28:52+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/Dachsanierung-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-2190044221-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/06/iStock-2227493758-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
