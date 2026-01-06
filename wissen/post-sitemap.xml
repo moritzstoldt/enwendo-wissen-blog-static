@@ -787,19 +787,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/heizungsgesetz-geg/</loc>
-		<lastmod>2026-01-06T08:21:06+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/12/iStock-1692334204.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/12/iStock-1692334204.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/12/iStock-1193500412.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/blower-door-test-luftdichtheit/</loc>
 		<lastmod>2026-01-06T08:21:15+00:00</lastmod>
 		<image:image>
@@ -842,6 +829,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-2173505500.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/heizungsgesetz-geg/</loc>
+		<lastmod>2026-01-06T12:20:17+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/12/iStock-1692334204.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/12/iStock-1692334204.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/12/iStock-1193500412.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
