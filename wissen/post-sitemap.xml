@@ -991,22 +991,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/isfp-kosten/</loc>
-		<lastmod>2026-02-03T13:39:11+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1140134194.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-2255846188.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1987087979.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1140134194.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/energieberater-kosten/</loc>
 		<lastmod>2026-02-03T17:00:02+00:00</lastmod>
 		<image:image>
@@ -1122,6 +1106,22 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1132943165.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/isfp-kosten/</loc>
+		<lastmod>2026-02-10T16:50:20+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1140134194.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-2255846188.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1987087979.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1140134194.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
