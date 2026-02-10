@@ -1050,22 +1050,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/fussbodenheizung/</loc>
-		<lastmod>2026-02-06T13:18:53+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1479149822.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1944847812.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1479149822.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1132943165.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/eu-gebauderichtlinie-epbd/</loc>
 		<lastmod>2026-02-06T13:20:19+00:00</lastmod>
 		<image:image>
@@ -1122,6 +1106,22 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1927102839.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/fussbodenheizung/</loc>
+		<lastmod>2026-02-10T16:46:20+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1479149822.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1944847812.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1479149822.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1132943165.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
