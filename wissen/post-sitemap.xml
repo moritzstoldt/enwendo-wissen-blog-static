@@ -492,19 +492,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/pv-anbieter-vergleich/</loc>
-		<lastmod>2025-11-10T13:03:03+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1206824700-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1206824700-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1427608956-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/darf-man-noch-eine-gasheizung-einbauen/</loc>
 		<lastmod>2025-11-17T14:10:28+00:00</lastmod>
 		<image:image>
@@ -1181,6 +1168,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-1437505133.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/pv-anbieter-vergleich/</loc>
+		<lastmod>2026-02-27T10:29:47+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1206824700-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1206824700-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1427608956-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
