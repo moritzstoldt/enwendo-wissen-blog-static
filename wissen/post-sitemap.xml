@@ -1123,19 +1123,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/waermepumpe-mieten-oder-kaufen/</loc>
-		<lastmod>2026-03-03T11:50:33+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-2222833345.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-1941906652.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-2222833345.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/fussbodenheizung/</loc>
 		<lastmod>2026-03-04T10:41:35+00:00</lastmod>
 		<image:image>
@@ -1285,6 +1272,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-2150881312.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/waermepumpe-mieten-oder-kaufen/</loc>
+		<lastmod>2026-03-05T09:55:27+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-2222833345.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-1941906652.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-2222833345.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
