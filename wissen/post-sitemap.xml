@@ -790,19 +790,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/waermepumpen-anbieter-installation-im-vergleich/</loc>
-		<lastmod>2026-01-15T14:25:18+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1438144733.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1438144733.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-2173505500.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/hamburg-verbietet-stromheizung/</loc>
 		<lastmod>2026-01-21T11:44:33+00:00</lastmod>
 		<image:image>
@@ -1285,6 +1272,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-2211653375.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/waermepumpen-anbieter-installation-im-vergleich/</loc>
+		<lastmod>2026-03-05T10:05:45+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1438144733.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1438144733.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-2173505500.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
