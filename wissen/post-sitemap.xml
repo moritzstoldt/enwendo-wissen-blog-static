@@ -959,16 +959,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/neue-schall-und-foerderregeln-fur-waermepumpen-ab-2026/</loc>
-		<lastmod>2026-02-06T13:13:51+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-2045012890.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-2045012890.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/energetische-sanierung-in-deutschland-rekordtief/</loc>
 		<lastmod>2026-02-06T13:18:26+00:00</lastmod>
 		<image:image>
@@ -1279,12 +1269,22 @@
 	</url>
 	<url>
 		<loc>https://enwendo.de/wissen/ende-der-waermepumpen-subventionen-in-fernwaerme-gebieten/</loc>
-		<lastmod>2026-03-05T09:58:03+00:00</lastmod>
+		<lastmod>2026-03-05T09:58:18+00:00</lastmod>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-1440763031.jpg</image:loc>
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-1440763031.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/neue-schall-und-foerderregeln-fur-waermepumpen-ab-2026/</loc>
+		<lastmod>2026-03-05T09:59:04+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-2045012890.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-2045012890.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
