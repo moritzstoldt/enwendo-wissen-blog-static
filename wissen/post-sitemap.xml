@@ -1064,16 +1064,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/ende-der-waermepumpen-subventionen-in-fernwaerme-gebieten/</loc>
-		<lastmod>2026-02-10T17:04:55+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-1440763031.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-1440763031.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/foerderquoten-2026/</loc>
 		<lastmod>2026-02-10T17:08:50+00:00</lastmod>
 		<image:image>
@@ -1285,6 +1275,16 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-1628581472.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/ende-der-waermepumpen-subventionen-in-fernwaerme-gebieten/</loc>
+		<lastmod>2026-03-05T09:58:03+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-1440763031.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-1440763031.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
