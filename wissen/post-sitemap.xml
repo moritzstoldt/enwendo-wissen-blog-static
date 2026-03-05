@@ -777,19 +777,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/lohnt-sich-solarthermie/</loc>
-		<lastmod>2026-01-15T13:07:22+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-2211653375.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-2157534629.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-2211653375.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/blower-door-test-luftdichtheit/</loc>
 		<lastmod>2026-01-15T14:09:21+00:00</lastmod>
 		<image:image>
@@ -1285,6 +1272,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-1524463208.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/lohnt-sich-solarthermie/</loc>
+		<lastmod>2026-03-05T10:03:14+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-2211653375.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-2157534629.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/01/iStock-2211653375.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
