@@ -927,19 +927,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/pv-speicher-foerderung/</loc>
-		<lastmod>2026-03-05T09:46:38+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/10/iStock-2098422511-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/10/iStock-2098422511-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/10/iStock-2049875765-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/was-kostet-eine-erdwaermepumpe/</loc>
 		<lastmod>2026-03-05T09:53:15+00:00</lastmod>
 		<image:image>
@@ -1285,6 +1272,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/10/iStock-2239934270-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/pv-speicher-foerderung/</loc>
+		<lastmod>2026-03-09T07:12:10+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/10/iStock-2098422511-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/10/iStock-2098422511-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/10/iStock-2049875765-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
