@@ -967,16 +967,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/jahresarbeitszahl-warmepumpe/</loc>
-		<lastmod>2026-03-05T10:12:17+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/10/iStock-2084114078-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/10/iStock-1201893977-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/neue-heizung-kosten/</loc>
 		<lastmod>2026-03-05T10:14:33+00:00</lastmod>
 		<image:image>
@@ -1285,6 +1275,16 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-2173505376-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/jahresarbeitszahl-warmepumpe/</loc>
+		<lastmod>2026-03-09T07:21:15+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/10/iStock-2084114078-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/10/iStock-1201893977-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
