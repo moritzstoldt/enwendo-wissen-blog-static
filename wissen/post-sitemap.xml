@@ -940,19 +940,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/pv-speicher-test-2026/</loc>
-		<lastmod>2026-03-05T09:10:43+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-1437505133.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-2181931137.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-1437505133.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/solarpflicht-in-deutschland/</loc>
 		<lastmod>2026-03-05T09:37:58+00:00</lastmod>
 		<image:image>
@@ -1276,7 +1263,7 @@
 	</url>
 	<url>
 		<loc>https://enwendo.de/wissen/erdwarmepumpe-kosten-foerderung/</loc>
-		<lastmod>2026-03-05T10:24:19+00:00</lastmod>
+		<lastmod>2026-03-05T10:26:06+00:00</lastmod>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/iStock-1480091526.jpg</image:loc>
 		</image:image>
@@ -1285,6 +1272,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2024/12/Erdwaermepumpe.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/pv-speicher-test-2026/</loc>
+		<lastmod>2026-03-09T07:08:58+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-1437505133.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-2181931137.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/02/iStock-1437505133.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
