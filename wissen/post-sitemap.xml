@@ -927,19 +927,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/pelletheizung-oder-waermepumpe/</loc>
-		<lastmod>2026-03-05T09:54:32+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-1349589832.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-1349589832.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-2150881312.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/waermepumpe-mieten-oder-kaufen/</loc>
 		<lastmod>2026-03-05T09:55:45+00:00</lastmod>
 		<image:image>
@@ -1285,6 +1272,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-478544622.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/pelletheizung-oder-waermepumpe/</loc>
+		<lastmod>2026-03-09T07:17:24+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-1349589832.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-1349589832.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/03/iStock-2150881312.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
