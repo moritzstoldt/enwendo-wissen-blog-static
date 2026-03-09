@@ -967,19 +967,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/waermepumpe-abstand-nachbar/</loc>
-		<lastmod>2026-03-05T10:11:14+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-2232990390-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-2232990390-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-2173505376-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/jahresarbeitszahl-warmepumpe/</loc>
 		<lastmod>2026-03-05T10:12:17+00:00</lastmod>
 		<image:image>
@@ -1285,6 +1272,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-2186727406-scaled.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/waermepumpe-abstand-nachbar/</loc>
+		<lastmod>2026-03-09T07:20:50+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-2232990390-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-2232990390-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-2173505376-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
