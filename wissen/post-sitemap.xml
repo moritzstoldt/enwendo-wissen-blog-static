@@ -1489,19 +1489,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/waermepumpe-buderus/</loc>
-		<lastmod>2026-05-03T09:29:52+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/05/Milieubild_WSW186_HRV176_v4-2.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/05/Milieubild_WSW186_HRV176_v4-2.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/05/Montage_Logatherm_WLW196i_AR_Tower.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/pv-anlage-kosten-2026/</loc>
 		<lastmod>2026-05-03T10:29:23+00:00</lastmod>
 		<image:image>
@@ -1538,6 +1525,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/05/iStock-1536513241.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/waermepumpe-buderus/</loc>
+		<lastmod>2026-05-03T11:41:46+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/05/Milieubild_WSW186_HRV176_v4-2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/05/Milieubild_WSW186_HRV176_v4-2.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/05/Montage_Logatherm_WLW196i_AR_Tower.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
