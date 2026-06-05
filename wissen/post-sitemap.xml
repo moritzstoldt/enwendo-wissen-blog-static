@@ -1275,19 +1275,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://enwendo.de/wissen/pv-anbieter-vergleich/</loc>
-		<lastmod>2026-03-16T09:48:18+00:00</lastmod>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1206824700-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1206824700-scaled.jpg</image:loc>
-		</image:image>
-		<image:image>
-			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1427608956-scaled.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://enwendo.de/wissen/altbau-dach-daemmen/</loc>
 		<lastmod>2026-03-31T09:07:40+00:00</lastmod>
 		<image:image>
@@ -1681,6 +1668,19 @@
 		</image:image>
 		<image:image>
 			<image:loc>https://enwendo.de/wissen/assets/uploads/2026/05/iStock-1332176117.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://enwendo.de/wissen/pv-anbieter-vergleich/</loc>
+		<lastmod>2026-06-05T12:46:51+00:00</lastmod>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1206824700-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1206824700-scaled.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://enwendo.de/wissen/assets/uploads/2025/11/iStock-1427608956-scaled.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
